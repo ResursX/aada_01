@@ -8,7 +8,7 @@ namespace aada_01_lib.Combinations
 {
     public class PascalCombination : Combination
     {
-        private List<List<BigInteger>> Triangle;
+        private readonly List<List<BigInteger>> Triangle;
 
         public PascalCombination()
         {
